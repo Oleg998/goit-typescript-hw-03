@@ -31,7 +31,7 @@ abstract class House {
   comeIn(person: Person): void {
     if (this.door) {
       this.tenants.push(person);
-      console.log(`${person.getKey().getSignature()} entered the house.`);
+      console.log("Enter House");
     } else {
       console.log("The door is closed.");
     }
